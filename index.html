@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Mohammed Mostafa Mady - Electrical Engineering & Computer Science Student specializing in Embedded Systems, IoT, and Machine Learning">
+    <meta name="keywords" content="embedded systems, IoT, machine learning, electrical engineering, portfolio">
+    <meta name="author" content="Mohammed Mostafa Mady">
+    <title>Mohammed Mostafa Mady - Professional Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">MM</a>
+
+            <!-- Theme Toggle Button -->
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+
+            <!-- Hamburger Menu -->
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Hero Section / Cover -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-shape shape-1"></div>
+            <div class="hero-shape shape-2"></div>
+            <div class="hero-shape shape-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Mohammed Mostafa Mady</span>
+                    </h1>
+                    <p class="hero-subtitle">Electrical Engineering & Computer Science Student</p>
+                    <p class="hero-hook" id="typingText"></p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Get In Touch
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            <i class="fas fa-rocket"></i> View Projects
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/mohammedmostafa365" target="_blank" rel="noopener"
+                            aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohammed-mostafa-mady" target="_blank" rel="noopener"
+                            aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:mohammedmoastafamady2004@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+201097114377" aria-label="Phone">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <div class="hero-image-border">
+                        <img src="images/my photo.jpg" alt="Mohammed Mostafa Mady" class="hero-image">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- USP Section -->
+    <section id="usp" class="usp">
+        <div class="container">
+            <div class="usp-grid">
+                <div class="usp-card">
+                    <div class="usp-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Hardware-Software Integration</h3>
+                    <p>Bridging the gap between embedded systems and intelligent software solutions</p>
+                </div>
+                <div class="usp-card">
+                    <div class="usp-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Machine Learning Expertise</h3>
+                    <p>Building predictive models with proven accuracy rates for real-world applications</p>
+                </div>
+                <div class="usp-card">
+                    <div class="usp-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Full-Stack Development</h3>
+                    <p>From compiler design to IoT systems - comprehensive technical versatility</p>
+                </div>
+                <div class="usp-card">
+                    <div class="usp-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Result-Driven Projects</h3>
+                    <p>Delivering measurable outcomes with documented performance metrics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get To Know</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a passionate <strong>Electrical Engineering and Computer Science student</strong> at Kafr
+                        El-Sheikh University,
+                        specializing in <strong>Embedded Systems and IoT</strong>. With a solid 3.7 GPA, I combine
+                        academic excellence
+                        with hands-on project experience.
+                    </p>
+                    <p>
+                        My journey spans from <strong>low-level hardware programming</strong> (Verilog, Assembly,
+                        Arduino) to
+                        <strong>high-level machine learning</strong> applications. I've built complete compiler suites,
+                        designed
+                        computer architectures, and developed ML models with documented accuracy rates.
+                    </p>
+                    <p>
+                        What sets me apart is my ability to <strong>bridge hardware and software</strong> - I don't just
+                        write code,
+                        I understand how it runs on the metal. Whether it's optimizing embedded systems or training
+                        neural networks,
+                        I bring a comprehensive technical perspective to every project.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-number" data-target="15">0</span>
+                            <span class="highlight-label">Projects Completed</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-number" data-target="8">0</span>
+                            <span class="highlight-label">Technologies Mastered</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-number" data-target="3">0</span>
+                            <span class="highlight-label">Years of Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Academic Background</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="education-content">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>Bachelor of Engineering</h3>
+                        <h4>Electrical Engineering & Computer Science</h4>
+                        <p class="education-institution">
+                            <i class="fas fa-university"></i> Kafr El-Sheikh University, Egypt
+                        </p>
+                        <p class="education-duration">
+                            <i class="fas fa-calendar"></i> Expected Graduation: 2027
+                        </p>
+                        <p class="education-gpa">
+                            <i class="fas fa-star"></i> GPA: 3.7/4.0
+                        </p>
+                        <div class="education-focus">
+                            <h5>Focus Areas:</h5>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Embedded Systems Design</li>
+                                <li><i class="fas fa-check"></i> Internet of Things (IoT)</li>
+                                <li><i class="fas fa-check"></i> Machine Learning & AI</li>
+                                <li><i class="fas fa-check"></i> Computer Architecture</li>
+                                <li><i class="fas fa-check"></i> Compiler Design</li>
+                                <li><i class="fas fa-check"></i> Digital Logic Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Technical Expertise</span>
+                <h2 class="section-title">Skills</h2>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">Verilog HDL</span>
+                        <span class="skill-tag">Assembly</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-microchip"></i> Embedded Systems & IoT</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Arduino</span>
+                        <span class="skill-tag">Raspberry Pi</span>
+                        <span class="skill-tag">Sensors Integration</span>
+                        <span class="skill-tag">Bluetooth/GSM</span>
+                        <span class="skill-tag">Robotics</span>
+                        <span class="skill-tag">FPGA</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Machine Learning & AI</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Logistic Regression</span>
+                        <span class="skill-tag">SVM</span>
+                        <span class="skill-tag">Neural Networks</span>
+                        <span class="skill-tag">Data Preprocessing</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Compiler & Computer Architecture</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Lexical Analysis</span>
+                        <span class="skill-tag">Syntax Parsing (LL/SLR)</span>
+                        <span class="skill-tag">Semantic Analysis</span>
+                        <span class="skill-tag">AST Design</span>
+                        <span class="skill-tag">Mano Architecture</span>
+                        <span class="skill-tag">Control Unit Design</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Development Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git/GitHub</span>
+                        <span class="skill-tag">Jupyter Notebook</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Proteus</span>
+                        <span class="skill-tag">ModelSim</span>
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> Data Science</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Data Visualization</span>
+                        <span class="skill-tag">Model Evaluation</span>
+                        <span class="skill-tag">Feature Engineering</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Professional Journey</span>
+                <h2 class="section-title">Work Experience</h2>
+            </div>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025 - Present</span>
+                        <h3>Machine Learning Projects</h3>
+                        <h4>Independent Researcher & Developer</h4>
+                        <ul>
+                            <li>Developed predictive models for house prices using regression techniques</li>
+                            <li>Built binary classifiers for sonar data (76.2% accuracy) and diabetes prediction (77.9%
+                                accuracy)</li>
+                            <li>Implemented data preprocessing pipelines with StandardScaler and feature engineering
+                            </li>
+                            <li>Documented complete model evaluation metrics and performance analysis</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>Pandas</span>
+                            <span>Jupyter</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025</span>
+                        <h3>Compiler Design Suite</h3>
+                        <h4>Educational Project Developer</h4>
+                        <ul>
+                            <li>Created complete compiler suite covering lexical, syntax, and semantic analysis phases
+                            </li>
+                            <li>Implemented LL(1) top-down and SLR(1) bottom-up parsers with step-by-step tracing</li>
+                            <li>Built Abstract Syntax Tree (AST) generator with type checking and scope analysis</li>
+                            <li>Designed token categorization system for C-like programming languages</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Python</span>
+                            <span>Compiler Theory</span>
+                            <span>AST</span>
+                            <span>Parser Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - 2025</span>
+                        <h3>Embedded Systems & IoT Development</h3>
+                        <h4>Hardware-Software Integration Specialist</h4>
+                        <ul>
+                            <li>Designed and implemented Mano's Basic Computer Architecture in Verilog HDL</li>
+                            <li>Developed Arduino-based IoT systems with sensors, Bluetooth, and GSM modules</li>
+                            <li>Built robotics learning projects covering Level 1 & 2 complexity</li>
+                            <li>Simulated and verified digital logic designs using Proteus</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Verilog</span>
+                            <span>Arduino</span>
+                            <span>IoT</span>
+                            <span>Proteus</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What I Offer</span>
+                <h2 class="section-title">Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>IoT System Development</h3>
+                    <p>Design and implement complete IoT solutions with sensor integration, wireless communication
+                        (Bluetooth/GSM), and real-time data processing for smart automation projects.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Arduino/Raspberry Pi Programming</li>
+                        <li><i class="fas fa-check"></i> Sensor Integration & Calibration</li>
+                        <li><i class="fas fa-check"></i> Wireless Communication Setup</li>
+                        <li><i class="fas fa-check"></i> System Testing & Documentation</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Machine Learning Solutions</h3>
+                    <p>Build predictive models and classification systems using proven ML algorithms. Deliver documented
+                        results with accuracy metrics and performance analysis for data-driven decision making.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Regression & Classification Models</li>
+                        <li><i class="fas fa-check"></i> Data Preprocessing Pipelines</li>
+                        <li><i class="fas fa-check"></i> Model Training & Evaluation</li>
+                        <li><i class="fas fa-check"></i> Performance Metric Reports</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Embedded Systems Design</h3>
+                    <p>Create custom embedded solutions from concept to implementation. Specializing in
+                        hardware-software integration, real-time systems, and low-level optimization for
+                        resource-constrained environments.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Microcontroller Programming</li>
+                        <li><i class="fas fa-check"></i> Hardware Interface Design</li>
+                        <li><i class="fas fa-check"></i> Real-time System Development</li>
+                        <li><i class="fas fa-check"></i> Performance Optimization</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Compiler & Language Design</h3>
+                    <p>Develop custom compilers, interpreters, and domain-specific languages. Full implementation from
+                        lexical analysis through code generation with proper error handling and optimization.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Lexer & Parser Development</li>
+                        <li><i class="fas fa-check"></i> AST Design & Implementation</li>
+                        <li><i class="fas fa-check"></i> Type Checking & Semantic Analysis</li>
+                        <li><i class="fas fa-check"></i> Code Generation & Optimization</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-memory"></i>
+                    </div>
+                    <h3>Digital Logic & FPGA</h3>
+                    <p>Design and simulate digital circuits and computer architectures using Verilog HDL. From basic
+                        logic gates to complete CPU implementations with instruction sets and control units.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Verilog HDL Design</li>
+                        <li><i class="fas fa-check"></i> Computer Architecture Implementation</li>
+                        <li><i class="fas fa-check"></i> Circuit Simulation (Proteus)</li>
+                        <li><i class="fas fa-check"></i> Timing Analysis & Verification</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Technical Consultation</h3>
+                    <p>Provide expert guidance on embedded systems, IoT architecture, ML model selection, and
+                        hardware-software integration. Help you make informed technical decisions for your projects.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Technology Stack Selection</li>
+                        <li><i class="fas fa-check"></i> Architecture Design Review</li>
+                        <li><i class="fas fa-check"></i> Code Review & Optimization</li>
+                        <li><i class="fas fa-check"></i> Best Practices Implementation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Featured Work</span>
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <a href="https://github.com/mohammedmostafa365/house-price-regression" target="_blank"
+                            class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <h3>House Price Prediction</h3>
+                    <p>Machine learning regression model to predict house prices with comprehensive data visualization
+                        and model evaluation metrics.</p>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <span class="stat-label">Technique</span>
+                            <span class="stat-value">Linear & Polynomial Regression</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Tools</span>
+                            <span class="stat-value">Python, Scikit-learn, Jupyter</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>ML</span>
+                        <span>Regression</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-water"></i>
+                        </div>
+                        <a href="https://github.com/mohammedmostafa365/Project1-SONAR-Rock-vs-Mine-Prediction-with-Python"
+                            target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <h3>SONAR Rock vs Mine Classifier</h3>
+                    <p>Binary classification using Logistic Regression to differentiate between rocks and mines based on
+                        sonar signal readings.</p>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <span class="stat-label">Accuracy</span>
+                            <span class="stat-value">76.2%</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Algorithm</span>
+                            <span class="stat-value">Logistic Regression</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Classification</span>
+                        <span>Data Science</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <a href="https://github.com/mohammedmostafa365/project2-predicting-diabetes" target="_blank"
+                            class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <h3>Diabetes Prediction Model</h3>
+                    <p>SVM-based classification system for diabetes prediction with StandardScaler preprocessing and
+                        comprehensive performance analysis.</p>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <span class="stat-label">Accuracy</span>
+                            <span class="stat-value">77.9%</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Algorithm</span>
+                            <span class="stat-value">Support Vector Machine</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>SVM</span>
+                        <span>Healthcare</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <a href="https://github.com/mohammedmostafa365/lexical_analysis" target="_blank"
+                            class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <h3>Complete Compiler Suite</h3>
+                    <p>Full compiler implementation covering lexical analysis, LL(1)/SLR(1) parsers, and semantic
+                        analysis with AST generation and type checking.</p>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <span class="stat-label">Components</span>
+                            <span class="stat-value">3 Major Phases</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Features</span>
+                            <span class="stat-value">Full Tracing & Analysis</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Compilers</span>
+                        <span>AST</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-memory"></i>
+                        </div>
+                        <a href="https://github.com/mohammedmostafa365/mano_design" target="_blank"
+                            class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <h3>Mano Computer Architecture</h3>
+                    <p>Verilog HDL implementation of Mano's Basic Computer with complete instruction set, control unit,
+                        and I/O handling verified in Proteus.</p>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <span class="stat-label">Language</span>
+                            <span class="stat-value">Verilog HDL</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Simulation</span>
+                            <span class="stat-value">Proteus Verified</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span>Verilog</span>
+                        <span>Computer Architecture</span>
+                        <span>FPGA</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <a href="https://github.com/mohammedmostafa365/Arduino-and-Iot" target="_blank"
+                            class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <h3>Arduino & IoT Robotics Systems</h3>
+                    <p>Comprehensive collection of Arduino projects covering sensors, IoT connectivity, Bluetooth/GSM
+                        communication, and robotics applications.</p>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <span class="stat-label">Complexity</span>
+                            <span class="stat-value">Level 1 & 2 Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Technologies</span>
+                            <span class="stat-value">Multi-protocol IoT</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span>Arduino</span>
+                        <span>IoT</span>
+                        <span>Robotics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Milestones</span>
+                <h2 class="section-title">Achievements</h2>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Academic Excellence</h3>
+                    <p>Maintained 3.7/4.0 GPA while working on multiple complex technical projects simultaneously</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>15+ Technical Projects</h3>
+                    <p>Successfully completed diverse projects spanning ML, embedded systems, compilers, and IoT</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Full Compiler Implementation</h3>
+                    <p>Built complete compiler suite covering all major phases: lexical, syntax, and semantic analysis
+                    </p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>ML Model Accuracy</h3>
+                    <p>Achieved 77.9% accuracy on diabetes prediction and 76.2% on sonar classification with documented
+                        metrics</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Computer Architecture Design</h3>
+                    <p>Designed and verified Mano's Basic Computer in Verilog HDL with complete instruction set
+                        implementation</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Multi-Domain Expertise</h3>
+                    <p>Mastered hardware, software, and ML domains - from Assembly to Python, Verilog to TensorFlow</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm available for freelance projects, consultations, and collaborations. Whether you need
+                        embedded systems development, ML solutions, or technical expertise - let's discuss how I can
+                        help.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a
+                                    href="mailto:mohammedmoastafamady2004@gmail.com">mohammedmoastafamady2004@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <a href="tel:+201097114377">+20 109 711 4377</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Kafr El-Sheikh, Egypt</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h4>Connect With Me</h4>
+                        <div class="social-links-large">
+                            <a href="https://github.com/mohammedmostafa365" target="_blank" rel="noopener"
+                                aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mohammed-mostafa-mady" target="_blank" rel="noopener"
+                                aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Project Discussion">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="Tell me about your project..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2027 Mohammed Mostafa Mady. All rights reserved.</p>
+                <p>Electrical Engineering & Computer Science Student | Embedded Systems & IoT Specialist</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Notification Toast -->
+    <div class="toast" id="toast"></div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
